@@ -2,6 +2,8 @@
 published: false
 title: Practical refactoring
 layout: post
+tags: [cleancode, refactoring, practices, craftsmanship]
+categories: [code, practices]
 ---
 #What is refactoring ?
 
