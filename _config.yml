@@ -1,8 +1,8 @@
 excerpt_separator: ""
-pygments: true
+highlighter: rouge
 markdown: kramdown
 url: http://ideaflare.github.io
 title: Software better
 tagline: Causes & effects in software development
-description: There are a ton of resources about how to create software in better ways - in terms of writing code, but also about the development process as a whole.<br /><br />You'll find many opposing and vaguely-similar opinions, as we humans like to put things in boxes and make up stories.<br /><br />This blog is my attempt to consolidate these 'thought patterns' - to get to the core of those ideas - the why & how they influence software development.
+description: There are a ton of resources about how to create software in better ways - in terms of writing code - and also about the development process as a whole.<br /><br />You'll find many opposing and vaguely-similar opinions, as we humans like to put things in boxes and make up stories.<br /><br />This blog is my attempt to consolidate these 'thought patterns' - to get to the core of those ideas - the why & how they influence software development.
 paginate: 3
