@@ -1,11 +1,11 @@
 ---
-published: true
+published: false
 title: Practical refactoring
 layout: post
 tags: [cleancode, refactoring, practices, craftsmanship]
 categories: [code, practices]
 ---
-# What is refactoring ?
+## What is refactoring ?
 
 It's about improving code. Highlights being:
 
@@ -18,7 +18,7 @@ It's about improving code. Highlights being:
   * Making everything small so they have a single purpose (classes, methods, services, etc..) 
   * Decoupling and minimizing the number of dependencies
 
-# Why refactor ?
+## Why refactor ?
 
 > Refactoring reduces the risk of change, while improving the ease of change.
 
@@ -30,11 +30,11 @@ Refactoring makes:
 * maintaining existing code less dreadful
 * hunting bugs less frequent and easier to isolate. 
 
-# When to refactor ?
+## When to refactor ?
 
 **Now** is always the best time. There often won't be time to do it later, and refactoring after the work has been completed is _subjective_.
 
-## Wait, _subjective_ ?
+### Wait, _subjective_ ?
 
 > They boy scout rule - "Always leave the campground cleaner than you found it"
 
@@ -46,16 +46,16 @@ Adding new features or changing existing behavior of software increases it's com
 
 But how do you know which parts of code to clean? How can you predict where to change next? Wouldn't it be great if there was an *objective* way that provides feedback and takes out the guesswork of where refactoring will help the most?
 
-# Where to refactor
+## Where to refactor
 
-You have the most information about *where* to streamline components the moment you interact with them. This applies to the code you just wrote, but equally so to nearby existing code. Follow the principle "If you touch it, clean it." In this way the same code that gets worked on many times won't be a hindrance. Conversely, code that doesn't get worked on frequently won't be refactored more than what is practically meaningful.
+You have the most information about *where* to streamline components the moment you interact with them. This applies to the code you just wrote, but equally so to nearby existing code. Follow the principle **"If you touch it, clean it."** In this way the same code that gets worked on/with many times won't be a hindrance. Conversely, code that doesn't get worked on/with frequently won't be refactored more than what is practically meaningful.
 
 When touching the same code many times, think about how you can [separate the parts that change from the parts that stay the same](https://en.wikipedia.org/wiki/Open/closed_principle). If you refactor while you code, you also have a much better idea of **how** to improve the code while you still have all the context fresh in your mind.
 
-# In conclusion
+## In conclusion
 
 > Prefer floss refactoring over root canal refactoring.
 
-To keep things simple - clean as you go, even if it's just renaming a variable or deleting unused code :)
+To keep things simple - cultivate the habit to clean as you go, even if it's just renaming a variable or deleting unused code :)
 
 ##### - Christoph Alrich [@ideaflare](https://twitter.com/ideaflare)
