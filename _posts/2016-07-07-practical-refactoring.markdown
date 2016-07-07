@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Practical refactoring
 layout: post
 tags: [cleancode, refactoring, practices, craftsmanship]
