@@ -41,7 +41,7 @@ But how do you know what parts of code to clean, how can you predict where to ch
 
 # Where to refactor
 
-You have the most information about *where* to streamline the moment you interact with them. This applies to the code you just wrote, but equally so to existing code. By following "If you touch it, clean it." the same code that gets worked on many times won't be a hindrance and code that doesn't get worked on frequently won't be refactored more than what is practically meaningful. When touching the same code many times, think about how you can [separate the parts that change from the parts that stay the same](https://en.wikipedia.org/wiki/Open/closed_principle). If you refactor while you code, you also have a much better idea of **how** to improve the code while you still have all the context fresh in your mind.
+You have the most information about *where* to streamline components the moment you interact with them. This applies to the code you just wrote, but equally so to nearby existing code. By following "If you touch it, clean it." the same code that gets worked on many times won't be a hindrance and code that doesn't get worked on frequently won't be refactored more than what is practically meaningful. When touching the same code many times, think about how you can [separate the parts that change from the parts that stay the same](https://en.wikipedia.org/wiki/Open/closed_principle). If you refactor while you code, you also have a much better idea of **how** to improve the code while you still have all the context fresh in your mind.
 
 # In conclusion
 
@@ -49,4 +49,4 @@ You have the most information about *where* to streamline the moment you interac
 
 Clean as you go, even if it's just renaming a variable or deleting unused code.
 
-##### - Christoph Alrich [@ideaflare](twitter.com/ideaflare)
+##### - Christoph Alrich [@ideaflare](https://twitter.com/ideaflare)
