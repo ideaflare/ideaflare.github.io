@@ -38,7 +38,7 @@ Refactoring makes:
 
 > They boy scout rule - "Always leave the campground cleaner than you found it"
 
-Taking pride in your work feels really great - to know you did your best. This isn't true for everyone, not all developers are passionate about what they do or want to become 'software craftsmen'. To deal with complexity with a strategy like "just hire more developers!" is a cop-out, that doesn't actually address the root of the problem: 
+Taking pride in your work feels really great - to know you did your best. This isn't true for everyone, not all developers are passionate about what they do or want to become 'software craftsmen'. To manage legacy using a strategy like "just hire more developers!" is a cop-out, that doesn't actually address the root of the problem: 
 
 Adding new features or changing existing behavior of software increases it's complexity, and the system becomes more and more difficult to change each time. The only way to keep software from rotting is by recognizing the need to reduce complexity. The **value** of refactoring, is to support a sustainable pace of development - so that you _(or the next person)_ in a future not too far from now can work on the software with continued momentum.
 
