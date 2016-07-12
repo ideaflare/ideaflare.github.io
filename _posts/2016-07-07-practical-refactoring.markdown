@@ -38,7 +38,7 @@ Refactoring makes:
 
 > They boy scout rule - "Always leave the campground cleaner than you found it"
 
-Taking pride in your work feels really great - to know you did your best. This isn't true for everyone, not all developers are passionate about what they do or want to become 'software craftsmen'. Saying "just get rid of all the plain developers and hire great ones!" is a cop-out, that doesn't actually address the root of the problem: 
+Taking pride in your work feels really great - to know you did your best. This isn't true for everyone, not all developers are passionate about what they do or want to become 'software craftsmen'. To deal with complexity with a strategy like "just hire more developers!" is a cop-out, that doesn't actually address the root of the problem: 
 
 Adding new features or changing existing behavior of software increases it's complexity, and the system becomes more and more difficult to change each time. The only way to keep software from rotting is by recognizing the need to reduce complexity. The **value** of refactoring, is to support a sustainable pace of development - so that you _(or the next person)_ in a future not too far from now can work on the software with continued momentum.
 
@@ -48,7 +48,7 @@ But how do you know which parts of code to clean? How can you predict where to c
 
 ## Where to refactor
 
-You have the most information about *where* to streamline components the moment you interact with them. This applies to the code you just wrote, but equally so to nearby existing code. Follow the principle **"If you touch it, clean it."** In this way the same code that gets worked on/with many times won't be a hindrance. Conversely, code that doesn't get worked on/with frequently won't be refactored more than what is practically meaningful.
+You have the most information about *where* to streamline components the moment you interact with them. This applies to the code you just wrote, but equally so to nearby existing code. Follow the principle **"If you touch it, clean it."** In this way the same code that gets worked on/with many times won't be a hindrance. Conversely, code that doesn't get worked on/with frequently won't be refactored beyond what is practically meaningful.
 
 When touching the same code many times, think about how you can [separate the parts that change from the parts that stay the same](https://en.wikipedia.org/wiki/Open/closed_principle). If you refactor while you code, you also have a much better idea of **how** to improve the code while you still have all the context fresh in your mind.
 
