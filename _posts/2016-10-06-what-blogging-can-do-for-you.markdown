@@ -6,13 +6,13 @@ tags: [craftsmanship, practices]
 categories: [practices]
 ---
 ## Communication is the first order of business
-When blogging you get to practice getting ideas across in a clear and succinct manner. Communication is essential for any information worker, or any position (and almost all positions do) that require good communication skills. In relationships, business dealings and many other aspects of life benefit greatly from soft skills.
+When blogging you get to practice getting ideas across in a clear and succinct manner. Good communication is essential not only for information workers, but any job really. Relationships, business dealings and many other aspects of life benefit greatly from sharpening your soft skills.
 
-## Save your thoughts 
-Blogging is a great place to put your thoughts so that you can re-visit them later. It's there so you can't forget it - and if a idea is rolling around in your head and you don't want to forget it, you can set it free! And move on to thinking new things.
+## Free your thoughts 
+Blogging is a great place to put your thoughts so that you can re-visit them later. It's there so you can't forget them. If an idea is rolling around in your head and you don't want to forget it, you can let it go; and move on to thinking new things!
 
 ## Verbalize/Writing your ideas clarifies them
-Many times when you actually tell someone about what your'e thinking, when you have to put it into words - you think about the idea in a slightly different way, somehow helping you to better understand it yourself. funny magic :)
+Many times when you actually tell someone about what your'e thinking, when you have to put it into words - you think about the idea in a slightly different way, somehow helping you to better understand it yourself. Funny magic :)
 
 ## Repeat yourself less
 If you find yourself sharing the same concepts in conversations, or getting asked about the same thing - you can share a link to your blog! 
