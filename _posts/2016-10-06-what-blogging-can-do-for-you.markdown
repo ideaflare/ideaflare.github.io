@@ -18,5 +18,5 @@ If you find yourself sharing the same concepts in conversations, or getting aske
 * Help others
 Your blog can be a place for people to discover a helpful introduction into something new, or provoke thought to get the gears rolling about some idea(s).
 
-*Get feedback
+* Get feedback
 Via comments (or other social media like tweets, etc..) you can gain perspectives, insights and learn how/what others think.
