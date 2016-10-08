@@ -6,7 +6,7 @@ highlighter: rouge
 markdown: kramdown
 
 # Links
-permalink: /blog/:pretty
+permalink: /blog/:year/:month/:title
 url: http://ideaflare.github.io
 
 # Setup
