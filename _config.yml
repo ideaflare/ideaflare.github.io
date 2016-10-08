@@ -1,9 +1,21 @@
+# Unknown
 excerpt_separator: ""
+
+# Dependencies ?
 highlighter: rouge
 markdown: kramdown
+
+# Links
+permalink: /blog/:pretty
 url: http://ideaflare.github.io
+
+# Setup
 title: Software better
 tagline: Causes & effects in software development
-description: There are a ton of resources about how to create software in better ways - in terms of writing code - and also about the development process as a whole.<br /><br />You'll find many opposing and vaguely-similar opinions, as we humans like to put things in boxes and make up stories.<br /><br />This blog is my attempt to consolidate these 'thought patterns' - to get to the core of those ideas - the why & how they influence software development.
+description: I'm captivated by the things that make software development fun & effective. This is where I share what I discover/think about becoming a better software developer, XP, Kaizen, FP, Lean, Craftsmanship, Anzeneering, etc.. 
+
+# Unknown 2
 paginate: 1
+
+# Analytics
 google_analytics: UA-80449036-1
