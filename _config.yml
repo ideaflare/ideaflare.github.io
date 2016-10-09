@@ -1,20 +1,20 @@
-# Unknown
-excerpt_separator: ""
-
 # Dependencies ?
 highlighter: rouge
 markdown: kramdown
 
 # Links
-permalink: /blog/:year/:month/:title
+permalink: /:year/:month/:title
 url: http://ideaflare.github.io
 
-# Setup
+# About
 title: Software better
 tagline: Causes & effects in software development
-description: I'm captivated by the things that make software development fun & effective. This is where I share what I discover/think about becoming a better software developer, XP, Kaizen, FP, Lean, Craftsmanship, Anzeneering, etc.. 
+description: I'm captivated by things that make software development fun & effective. This is where I share what I discover/think about becoming a better software developer, XP, Kaizen, FP, Lean, Craftsmanship, Anzeneering, etc.. 
 
-# Unknown 2
+# Disable excerpts(blog previews)
+excerpt_separator: ""
+
+# Number of Posts displayed per-page
 paginate: 1
 
 # Analytics
