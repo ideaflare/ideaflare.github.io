@@ -1,6 +1,6 @@
 ---
 published: true
-title: What blogging can do for YOU
+title: Benefits of blogging
 layout: post
 tags: [craftsmanship, practices]
 categories: [practices]
