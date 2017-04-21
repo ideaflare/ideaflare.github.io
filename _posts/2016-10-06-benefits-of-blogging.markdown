@@ -12,7 +12,7 @@ When blogging you get to practice getting ideas across in a clear and succinct m
 Blogging is a great place to put your thoughts so that you can re-visit them later. It's there so you can't forget them. If an idea is rolling around in your head and you don't want to forget it, you can let it go; and move on to thinking new things!
 
 ## Verbalize/Writing your ideas clarifies them
-Many times when you actually tell someone about what your'e thinking, when you have to put it into words - you think about the idea in a slightly different way, somehow helping you to better understand it yourself. Funny magic :)
+Many times when you actually tell someone about what your'e thinking, when you have to put it into words - you think about the idea in a slightly different way. When you explain a concept, your mind breaks the concept down into smaller easily relatable parts, helping you to better understand it yourself :)
 
 ## Repeat yourself less
 If you find yourself sharing the same concepts in conversations, or getting asked about the same thing - you can share a link to your blog! 
