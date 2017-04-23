@@ -3,7 +3,7 @@ published: false
 title: Architecture
 layout: post
 tags: [cleancode, refactoring]
-categories: [code]
+categories: [code, design]
 ---
 #What makes Architecture
 
