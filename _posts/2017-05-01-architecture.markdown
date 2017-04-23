@@ -15,7 +15,9 @@ categories: [code, design]
    * Small
    * Simple
    * Reusable
- * Messages instead of shared state (Queues, Actors) 'Think in the small like you think in the large'-Rich Hickey
+ * Decouple behaviour and data  'Think in the small like you think in the large'-Rich Hickey
+   * Decouple types and functions
+   * Messages instead of shared state (Queues, Actors)
  * A functional core with strong domain boundaries at the edges of any (sub-) system:
 
 #[The Four Horsemen of the Catapocalypse](https://cdsmith.wordpress.com/2012/04/18/why-do-monads-matter/)
