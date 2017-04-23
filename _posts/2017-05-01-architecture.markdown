@@ -1,7 +1,9 @@
 ---
 published: false
-title: Practical refactoring
+title: Architecture
 layout: post
+tags: [cleancode, refactoring]
+categories: [code]
 ---
 #What makes Architecture
 
