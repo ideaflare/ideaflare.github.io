@@ -12,8 +12,7 @@ categories: [code, design]
    * General -> Specific
    * Domain Models -> Functions -> More Functions -> Implementations
  * Single purpose modules
-   * Small
-   * Simple
+   * Small & Simple : Easy to test and maintain
    * Reusable
  * Decouple behaviour and data  'Think in the small like you think in the large'-Rich Hickey
    * Decouple types and functions
