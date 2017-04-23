@@ -1,0 +1,28 @@
+---
+published: false
+title: Testing
+layout: post
+tags: [test, refactoring]
+categories: [code, design]
+---
+# Why test
+
+Most important thing about code is that it works as expected. Testing is to validate assumptions.
+
+# Testing Helps you to think about what you don't, so you can focus on the change you make.
+## Refactoring
+Helps to make sure that other code doesn't break, and enables you to refactor freely.
+## Collaboration
+You might not know what code is calling what, especially if multiple people are modifying the code base all the time.
+
+
+
+### Interesting spin on the testing pyramid:
+2 birds:
+ * Easy to maintain tests, mostly unit.
+ * Great real-time monitoring for useful information radiators
+ 
+By using monitoring as a testing tool in a staged deployment dev->test->prod release process.
+If you have a great monitoring system, you can spend less effort on hard-to-maintain integration & systems tests.
+
+
