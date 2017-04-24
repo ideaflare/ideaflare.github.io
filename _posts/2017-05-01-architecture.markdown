@@ -7,6 +7,7 @@ categories: [code, design]
 ---
 # What makes Architecture
 
+## Separation of Concerns
  * Linear dependencies
    * Pure -> Impure
    * General -> Specific
@@ -19,7 +20,7 @@ categories: [code, design]
    * Messages instead of shared state (Queues, Actors)
  * A functional core with strong domain boundaries at the edges of any (sub-) system:
 
-#[The Four Horsemen of the Catapocalypse](https://cdsmith.wordpress.com/2012/04/18/why-do-monads-matter/)
+### [The Four Horsemen of the Catapocalypse](https://cdsmith.wordpress.com/2012/04/18/why-do-monads-matter/)
  * Failure
  * Destruction
  * Uncertainty
