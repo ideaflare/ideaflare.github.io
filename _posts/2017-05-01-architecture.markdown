@@ -25,3 +25,6 @@ categories: [code, design]
  * Destruction
  * Uncertainty
  * Dependence
+ 
+ What makes architecture different from guidelines for writing good code ?
+ A thought of the business functions and services, goals and strategic direction of the business and maybe also costs of decisions ?
