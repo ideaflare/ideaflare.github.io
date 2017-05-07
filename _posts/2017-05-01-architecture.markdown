@@ -19,6 +19,7 @@ categories: [code, design]
    * Decouple types and functions
    * Messages instead of shared state (Queues, Actors)
  * A functional core with strong domain boundaries at the edges of any (sub-) system:
+   * Minimize impure functions (side-effects, persistance dependency, etc..)
 
 ### [The Four Horsemen of the Catapocalypse](https://cdsmith.wordpress.com/2012/04/18/why-do-monads-matter/)
  * Failure
