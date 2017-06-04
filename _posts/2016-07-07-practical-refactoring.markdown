@@ -27,14 +27,13 @@ Working in clean code is **fun**, it makes you more productive and [happy](http:
 Refactoring makes:
 
 * extending software easier
-* maintaining existing code less dreadful
+* maintaining existing code less vague
 * hunting bugs less frequent and easier to isolate. 
 
 ## When to refactor ?
 
-**Now** is always the best time. There often won't be time to do it later, and refactoring after the work has been completed is _subjective_.
-
-### Wait, _subjective_ ?
+**Now** is always the best time. There often won't be time to do it later, and big bang refactorings seldom demonstrate immediate business value.
+### Build the house you want to live in
 
 > They boy scout rule - "Always leave the campground cleaner than you found it"
 
@@ -44,7 +43,7 @@ Adding new features or changing existing behavior of software increases it's com
 
 > Clean code minimizes the time spent from looking at code for the first time to making a confident change.
 
-But how do you know which parts of code to clean? How can you predict where to change next? Wouldn't it be great if there was an *objective* way that provides feedback and takes out the guesswork of where refactoring will help the most?
+But how do you know which parts of code to clean? How can you predict where to change next - how will you know where refactoring will help the most?
 
 ## Where to refactor
 
