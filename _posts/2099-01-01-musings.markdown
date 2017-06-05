@@ -1,0 +1,38 @@
+---
+published: false
+title: Musings
+layout: post
+tags: [agile, test, refactoring]
+categories: [code, design]
+---
+
+# FP & OO
+
+A large aspect of writing large programs is to manage complexity.
+
+OO has the 3 (or 4) 'pillars' - One of them is Encapsulation. The 2 definitions are:
+
+1. Data hiding
+2. Bundling behaviour and Data.
+
+FP does quite the opposite - separating behaviour from data. 
+
+"It is better to have 100 functions operate on one data structure than 10 functions on 10 data structures." —Alan Perlis
+
+Because of immutability, FP isn't all too concerned about data hiding either.
+
+FP still has different areas of code associated with different purposes - organised in different projects/name spaces/modules/files/types.
+
+This is one of the big reasons I've seen OO code doesn't normally drift towards FP,
+because of OO's need to "protect" and isolate code to manage complexity.
+
+# Discovery, team size, project owners
+
+Specialization is still important. Without good organization or a system of discovery, without logical boundaries a system can become unwielding.
+
+A good strategy is to plit up projects that become too large into smaller single purposed services.
+
+It's the same kind of thinking in functions - Rich Hickey (TODO find & link talk) says to think in the small as we do in the large:
+
+The way large systems are architected are usually with queues, and well defined boundries/purpose of systems.
+Messages - like the original intent of OO to be how biological cells organize and communicate (TODO find reference)
