@@ -21,8 +21,15 @@ categories: [code, design]
  * A functional core with strong domain boundaries at the edges of any (sub-) system:
    * Minimize impure functions (side-effects, persistance dependency, etc..)
 
-### [The Four Horsemen of the Catapocalypse](https://cdsmith.wordpress.com/2012/04/18/why-do-monads-matter/)
+### Single purpose
+
+A running program can have various unexpected burps, which too often results in exceptional patch-like code to deal with edge cases. Dealing with the potential problems up-front requires more thought and work, but the result is having much less to think about for surrounding code. The less context you need to understand a component, the easier it is to re-use and compose larger components from smaller ones.
+
+#### [The Four Horsemen of the Catapocalypse](https://cdsmith.wordpress.com/2012/04/18/why-do-monads-matter/)
+
  * Failure
+  You can think of this as any exception that is thrown - out of memory, file not found, network timeout - anything! If there is a point where an error can occur that goes unhandled, one (or often multiple duplicated) logic resides elsewhere to deal with unexpected execution. One way to deal with these kinds of errors is to do a try/catch immediately where such an error can occur, and not allow errors to bubble up - and rather to return a concrete result.
+  
  * Destruction
  * Uncertainty
  * Dependence
