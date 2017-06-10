@@ -2,10 +2,14 @@
 published: false
 title: Architecture
 layout: post
-tags: [cleancode, refactoring]
+tags: [cleancode, acrhitecture, refactoring]
 categories: [code, design]
 ---
 # What makes good Architecture
+
+>  "Think in the small like you think in the large." _-Rich Hickey_
+
+If you know qualities of good code, apply the same principles to the bigger picture. A system (or system of systems) is simply a grouping of many components, and it shares many of the same challenges that code has, like how to discover where to add/modify behaviour.
 
 ## Strong domain boundaries
  
@@ -17,8 +21,6 @@ categories: [code, design]
    * Most of code is queries (PURE functions) - Optimize your system for reading data, not saving (3NF is over-rated)
 
 ## Separation of Concerns
-
->  "Think in the small like you think in the large." _-Rich Hickey_
 
  * Single purpose components (al all levels - companies,systems,services,..,modules,functions)
    * Small & Simple : Easy to test and maintain
