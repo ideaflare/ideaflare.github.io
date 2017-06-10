@@ -7,10 +7,19 @@ categories: [code, design]
 ---
 # What makes Architecture
 
+## Strong domain boundaries
+ 
+ * Messaging systems
+ * CQRS when applicable (which is most systems)
+   * Structure changes more often than behaviour.
+   * Save events, create different projections from events for new views of the data
+   * Insert & Read only
+   * Most of code is queries (PURE functions) - Optimize your system for reading data, not saving (3NF is over-rated)
+
 ## Separation of Concerns
  * Linear dependencies
-   * Pure -> Impure
-   * General -> Specific
+   * Pure core -> Impure shell
+   * Generic -> Specific
    * Domain Models -> Functions -> More Functions -> Implementations
  * Single purpose modules
    * Small & Simple : Easy to test and maintain
