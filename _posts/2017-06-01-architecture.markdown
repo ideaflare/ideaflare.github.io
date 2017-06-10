@@ -14,7 +14,7 @@ If you know qualities of good code, apply the same principles to the bigger pict
 ## Strong domain boundaries
  
  * Messaging systems
- * CQRS when applicable (which is most systems)
+ * Event Sourcing / CQRS when applicable (which is most systems)
    * Structure changes more often than behaviour.
    * Save events, create different projections from events for new views of the data
    * Insert & Read only
