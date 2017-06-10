@@ -28,6 +28,10 @@ because of OO's need to "protect" and isolate code to manage complexity.
 
 # Discovery, team size, project owners
 
+## Consistency
+  * Same architectural patterns leads to discover how data flows through systems and which systems to work on
+  * Same coding style/patterns/conventions -> less time on learning esoteric differences, and you can leverage the framework of thought to locate where to make changes.
+
 Specialization is still important. Without good organization or a system of discovery, without logical boundaries a system can become unwielding.
 
 A good strategy is to plit up projects that become too large into smaller single purposed services.
