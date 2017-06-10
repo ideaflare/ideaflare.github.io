@@ -5,7 +5,7 @@ layout: post
 tags: [cleancode, refactoring]
 categories: [code, design]
 ---
-# What makes Architecture
+# What makes good Architecture
 
 ## Strong domain boundaries
  
@@ -17,18 +17,27 @@ categories: [code, design]
    * Most of code is queries (PURE functions) - Optimize your system for reading data, not saving (3NF is over-rated)
 
 ## Separation of Concerns
- * Linear dependencies
-   * Pure core -> Impure shell
-   * Generic -> Specific
-   * Domain Models -> Functions -> More Functions -> Implementations
- * Single purpose modules
+
+>  "Think in the small like you think in the large." _-Rich Hickey_
+
+ * Single purpose components (al all levels - companies,systems,services,..,modules,functions)
    * Small & Simple : Easy to test and maintain
    * Reusable
- * Decouple behaviour and data  'Think in the small like you think in the large'-Rich Hickey
+ * Decouple behaviour and data  
    * Decouple types and functions
    * Messages instead of shared state (Queues, Actors)
  * A functional core with strong domain boundaries at the edges of any (sub-) system:
    * Minimize impure functions (side-effects, persistance dependency, etc..)
+   
+## Linear dependencies
+
+Core idea being that data flows in one direction, like a river that only goes down-stream.
+
+Languages support this in various degrees - in C# you cannot have a project that is referenced by a project it references in the same solution. Circular dependencies sound convoluted - because they are! In F# the same is true at an even more granular level, where files and code needs to be ordered in order of dependency, akin to how C/C++ would be without the use of forward references.
+
+  * Pure core -> Impure shell
+  * Generic -> Specific
+  * Domain Models -> Functions -> More Functions -> Implementations
 
 ### Single purpose
 
