@@ -11,15 +11,6 @@ categories: [code, design]
 
 If you know qualities of good code, apply the same principles to the bigger picture. A system (or system of systems) is simply a grouping of many components, and it shares many of the same challenges that code has, like how to discover where to add/modify behaviour.
 
-## Strong domain boundaries
- 
- * Messaging systems
- * Event Sourcing / CQRS when applicable (which is most systems)
-   * Structure changes more often than behaviour.
-   * Save events, create different projections from events for new views of the data
-   * Insert & Read only
-   * Most of code is queries (PURE functions) - Optimize your system for reading data, not saving (3NF is over-rated)
-
 ## Separation of Concerns
 
  * Single purpose components (al all levels - companies,systems,services,..,modules,functions)
@@ -29,7 +20,11 @@ If you know qualities of good code, apply the same principles to the bigger pict
    * Decouple types and functions
    * Messages instead of shared state (Queues, Actors)
  * A functional core with strong domain boundaries at the edges of any (sub-) system:
-   * Minimize impure functions (side-effects, persistance dependency, etc..)
+   * Minimize impure functions (side-effects, persistance dependency, etc..)   
+
+## Strong domain boundaries
+ * Queues, interfaces, abstactions
+ * Messaging systems
    
 ## Linear dependencies
 
@@ -40,6 +35,12 @@ Languages support this in various degrees - in C# you cannot have a project that
   * Pure core -> Impure shell
   * Generic -> Specific
   * Domain Models -> Functions -> More Functions -> Implementations
+  
+#### Event Sourcing / CQRS when applicable (which is most systems)
+   * Structure changes more often than behaviour.
+   * Save events, create different projections from events for new views of the data
+   * Insert & Read only
+   * Most of code is queries (PURE functions) - Optimize your system for reading data, not saving (3NF is over-rated)
 
 ### Single purpose
 
