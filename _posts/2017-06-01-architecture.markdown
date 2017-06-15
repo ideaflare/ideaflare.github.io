@@ -5,7 +5,7 @@ layout: post
 tags: [cleancode, acrhitecture, refactoring]
 categories: [code, design]
 ---
-# What makes good Architecture
+# Software principles common in Architectual patterns
 
 >  "Think in the small like you think in the large." _-Rich Hickey_
 
