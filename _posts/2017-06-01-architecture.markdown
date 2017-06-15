@@ -26,7 +26,9 @@ If you know qualities of good code, apply the same principles to the bigger pict
  * Queues, interfaces, abstactions
  * Messaging systems
    
-## Linear dependencies
+## Organisation (Same as SoC): Known (Linear at best) dependencies
+ * Discoverability
+ * Predictability
 
 Core idea being that data flows in one direction, like a river that only goes down-stream.
 
@@ -36,11 +38,23 @@ Languages support this in various degrees - in C# you cannot have a project that
   * Generic -> Specific
   * Domain Models -> Functions -> More Functions -> Implementations
   
-#### Event Sourcing / CQRS when applicable (which is most systems)
+### Challenges
+  * Discoverability
+  * Ops - release, testing, monitoring, rollback, scaling.
+    * Interesting idea about tests: Have less integration tests - and double down on system-wide tests & monitoring as tests.
+  
+### Examples of Architectural patterns - all have the 
+
+#### Event Sourcing / CQRS
    * Structure changes more often than behaviour.
    * Save events, create different projections from events for new views of the data
    * Insert & Read only
    * Most of code is queries (PURE functions) - Optimize your system for reading data, not saving (3NF is over-rated)
+#### SOA / Microservices
+  * Each subsystem has it's own data
+  * Well defined inputs and outputs of each system
+  * Request/Response model
+#### Reactive Manifesto
 
 ### Single purpose
 
