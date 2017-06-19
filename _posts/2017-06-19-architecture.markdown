@@ -5,7 +5,7 @@ layout: post
 tags: [cleancode, acrhitecture, refactoring]
 categories: [code, design]
 ---
-# Software Architecte
+# Software Architecture
 
 >  "Think in the small like you think in the large." _-Rich Hickey_
 
@@ -13,7 +13,7 @@ Qualities of good code also apply to the bigger picture. Software architecture i
 
 ## Separation of Concerns
 
- * Single purpose components (al all levels - companies,systems,services,..,modules,functions)
+ * Single purpose components (at all levels - companies,systems,services,..,modules,functions)
    * Small & Simple : Easy to test and maintain
    * Reusable
  * Decouple behaviour and data  
@@ -24,7 +24,7 @@ Qualities of good code also apply to the bigger picture. Software architecture i
    * Core  : Minimize impure functions (side-effects, persistance, dependency, errors, etc..) It's possible to have a 100% pure core. 
 
 ## Strong domain boundaries
- * Interfaces, abstactions, plug-ins, Web API
+ * Interfaces, abstractions, plug-ins, Web API
  * Messaging systems, Queues
    
 ## Known (Preferably linear) dependencies
