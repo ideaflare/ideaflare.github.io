@@ -1,12 +1,10 @@
 ---
 published: true
-title: Architecture
+title: Software Architecture
 layout: post
 tags: [cleancode, acrhitecture, refactoring]
 categories: [code, design]
 ---
-# Software Architecture
-
 >  "Think in the small like you think in the large." _-Rich Hickey_
 
 Qualities of good code also apply to the bigger picture. Software architecture is about the orginisation of code.
@@ -54,15 +52,13 @@ Qualities of good code also apply to the bigger picture. Software architecture i
 #### [Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html)
 #### [Ports and Adapers](http://blog.ploeh.dk/2016/03/18/functional-architecture-is-ports-and-adapters/)
 
-# Software Architect
-
-So you want to be an Architect ?
+## Software Architect != Software Architecture
 
 This is the thing most junior developers say as a career progression they want to do after coding. Being a software architect is not about the organisation of code. Some architects claim to write code more than 70% of the time (small companies), however most architects I've spoken to do not write any code at all (usually large companies). The role of an Architect varies greatly from company to company, or within business units (very large companies).
  
 What makes architecture different from guidelines for writing good code - is that you give thought of the other services, goals and strategic direction of the business. *In some cases* you have to factor the costs of decisions. For example, when you decide to sign a yearly contract for a 3rd party integration service, or even more fixed - when failure is expensive like in aerospace projects, these decisions are referred to as "hard to change".
  
- ## Software Architect != Software Architecture
+ ### Other Considerations
  * Think about all stakeholders involved
  * Other aspects than just maintanability, for example:
    * Security
