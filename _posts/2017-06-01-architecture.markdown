@@ -5,11 +5,11 @@ layout: post
 tags: [cleancode, acrhitecture, refactoring]
 categories: [code, design]
 ---
-# Software principles common in Architectual patterns
+# Software Architecte
 
 >  "Think in the small like you think in the large." _-Rich Hickey_
 
-If you know qualities of good code, apply the same principles to the bigger picture. A system (or system of systems) is simply a grouping of many components, and it shares many of the same challenges that code has, like how to discover where to add/modify behaviour.
+Qualities of good code also apply to the bigger picture. Software architecture is about the orginisation of code.
 
 ## Separation of Concerns
 
@@ -19,33 +19,23 @@ If you know qualities of good code, apply the same principles to the bigger pict
  * Decouple behaviour and data  
    * Decouple types and functions
    * Messages instead of shared state (Queues, Actors)
- * A functional core with strong domain boundaries at the edges of any (sub-) system:
-   * Minimize impure functions (side-effects, persistance dependency, etc..)   
+ * Pure core with an imperative shell aka Onion / Hexagonal architecture
+   * Shell : Limit side-effects to exist only at the domain boundries of a (sub-) system
+   * Core  : Minimize impure functions (side-effects, persistance, dependency, errors, etc..) It's possible to have a 100% pure core. 
 
 ## Strong domain boundaries
- * Queues, interfaces, abstactions
- * Messaging systems
+ * Interfaces, abstactions, plug-ins, Web API
+ * Messaging systems, Queues
    
-## Organisation (Same as SoC): Known (Linear at best) dependencies
- * Discoverability
- * Predictability
+## Known (Preferably linear) dependencies
+ * Discoverability - how a new developer finds what changes to make on which system(s)
+ * Predictability - knowing the impact of software changes throughout a system (domino effect of data streams)
+ * Linearity. Languages support this in various degrees - in C# you cannot have a project that is referenced by a project it references in the same solution. Circular dependencies sound convoluted - because they are! In F# the same is true at an even more granular level, where files and code needs to be ordered in order of dependency, akin to how C/C++ would be without the use of forward references. Generic functions and Simple datastructures at the highest level of the system reduce overall complexity. Prefer Composition over Inheritance: Domain Models -> Functions -> More Functions -> Implementations. 
 
-Core idea being that data flows in one direction, like a river that only goes down-stream.
+### Leading Architectural patterns
 
-Languages support this in various degrees - in C# you cannot have a project that is referenced by a project it references in the same solution. Circular dependencies sound convoluted - because they are! In F# the same is true at an even more granular level, where files and code needs to be ordered in order of dependency, akin to how C/C++ would be without the use of forward references.
-
-  * Pure core -> Impure shell
-  * Generic -> Specific
-  * Domain Models -> Functions -> More Functions -> Implementations
-  
-### Challenges
-  * Discoverability
-  * Ops - release, testing, monitoring, rollback, scaling.
-    * Interesting idea about tests: Have less integration tests - and double down on system-wide tests & monitoring as tests.
-  
-### Examples of Architectural patterns - all have the 
-
-#### Event Sourcing / CQRS
+#### [Railway Oriented Programming](https://fsharpforfunandprofit.com/rop/)
+#### [Event Sourcing / CQRS](http://cqrs.nu/Faq)
    * Structure changes more often than behaviour.
    * Save events, create different projections from events for new views of the data
    * Insert & Read only
@@ -54,28 +44,34 @@ Languages support this in various degrees - in C# you cannot have a project that
   * Each subsystem has it's own data
   * Well defined inputs and outputs of each system
   * Request/Response model
-#### Reactive Manifesto
+#### [Reactive Manifesto](http://www.reactivemanifesto.org/)
 
-### Single purpose
+# Software Architect
 
-A running program can have various unexpected burps, which too often results in exceptional patch-like code to deal with edge cases. Dealing with the potential problems up-front requires more thought and work, but the result is having much less to think about for surrounding code. The less context you need to understand a component, the easier it is to re-use and compose larger components from smaller ones.
+So you want to be an Architect ?
 
-#### [The Four Horsemen of the Catapocalypse](https://cdsmith.wordpress.com/2012/04/18/why-do-monads-matter/)
-* Failure
-* Destruction
-* Uncertainty
-* Dependence
+This is the thing most junior developers say as a career progression they want to do after coding. Being a software architect is not about the organisation of code. Some architects claim to write code more than 70% of the time (small companies), however most architects I've spoken to do not write any code at all (usually large companies).
 
- ##### Failure
-
-You can think of this as any exception that is thrown - out of memory, file not found, network timeout - anything! If there is a point where an error can occur that goes unhandled, one (or often multiple duplicated) logic resides elsewhere to deal with unexpected execution. One way to deal with these kinds of errors is to do a try/catch immediately where such an error can occur. Rather than allowing errors to bubble up, return concrete results. 
-  
- ##### Destruction
- ##### Uncertainty
- ##### Dependence
- 
-  Depending on the context - a normal return value can be enough, if you don't care about specific details of failure a Maybe/Option type is could be fine - and if the detail of failure is important a Try (or Either) could be needed too. What's important is that the return type of the function is reliable - otherwise you'll have wrong assumptions based on wrong assumptions throughout the code base.
- 
+## Challenges
+  * Ops - release, testing, monitoring, rollback, scaling.
+    * 
  
  What makes architecture different from guidelines for writing good code ?
  A thought of the business functions and services, goals and strategic direction of the business and maybe also costs of decisions ?
+ 
+ ## Software Architect != Software Architecture
+ * Think about all stakeholders involved
+ * Other aspects than just maintanability, for example:
+   * Security
+   * Stability
+   * Scaling (performance and new software)
+   * Operations (mainetance, possible downtime, monitoring)
+   * Testing. *Side-note: Interesting approach to testing - Instead of the normal testing pyramid, have much less integration tests (the middle part of the pyramid), and have fantastic operations monitoring that also serve as system tests.*
+   * Disaster Recovery
+   
+ * Represent other (smaller) systems
+ * Saying No. (Tongue in cheeck) One of my buddies is a Software Architect at a large bank, and reports being a Software Architect is just saying "No" 70% of the time. There is merit in that he cannot simply say yes to any proposals, as there are a lot of things to consider.
+ * Never delete e-mails
+ * Negotiate
+ * Documentation
+ * A mediator between business strategy, operations and developers.
