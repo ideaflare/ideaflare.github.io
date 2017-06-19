@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Architecture
 layout: post
 tags: [cleancode, acrhitecture, refactoring]
@@ -79,3 +79,4 @@ What makes architecture different from guidelines for writing good code - is tha
  * A mediator between business strategy, operations and developers.
 
 > “Truth can only be found in one place: the code.” -_Robert C. Martin_
+##### - Christoph Alrich [@ideaflare](https://twitter.com/ideaflare)
