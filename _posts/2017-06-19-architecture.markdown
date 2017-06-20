@@ -30,23 +30,24 @@ Qualities of good code also apply to the bigger picture. Software architecture i
 
 ### Leading Architectural patterns / Good reading
 
+#### [Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html)
+#### [Ports and Adapters](http://blog.ploeh.dk/2016/03/18/functional-architecture-is-ports-and-adapters/)
 #### [Railway Oriented Programming](https://fsharpforfunandprofit.com/rop/)
+
 #### [Event Sourcing / CQRS](http://cqrs.nu/Faq)
  * Structure changes more often than behavior.
  * Save events, create different projections from events for new views of the data
  * Insert &amp; Read only
  * Most of code is queries (PURE functions) - Optimize your system for reading data, not saving (3NF is over-rated)
-#### SOA / Microservices
- * Each subsystem has its own data
- * Well defined inputs and outputs of each system
- * Request/Response model
 #### [Reactive Manifesto](http://www.reactivemanifesto.org/)
  * Responsive
  * Resilient
  * Elastic
  * Message Driven
-#### [Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html)
-#### [Ports and Adapters](http://blog.ploeh.dk/2016/03/18/functional-architecture-is-ports-and-adapters/)
+#### SOA / Microservices
+ * Each subsystem has its own data
+ * Well defined inputs and outputs of each system
+ * Request/Response model
 
 ## Software Architect != Software Architecture
 
