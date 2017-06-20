@@ -39,12 +39,14 @@ Qualities of good code also apply to the bigger picture. Software architecture i
  * Save events, create different projections from events for new views of the data
  * Insert &amp; Read only
  * Most of code is queries (PURE functions) - Optimize your system for reading data, not saving (3NF is over-rated)
+ 
 #### [Reactive Manifesto](http://www.reactivemanifesto.org/)
  * Responsive
  * Resilient
  * Elastic
  * Message Driven
-#### SOA / Microservices
+ 
+#### [SOA / Microservices](https://www.youtube.com/watch?v=CZ3wIuvmHeM)
  * Each subsystem has its own data
  * Well defined inputs and outputs of each system
  * Request/Response model
