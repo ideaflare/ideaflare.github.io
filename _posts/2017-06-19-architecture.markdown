@@ -73,6 +73,7 @@ What makes architecture different from guidelines for writing good code - is tha
  * Documentation, keeping good track of e-mails and discussions
  * Negotiate
  * A mediator between business strategy, operations and developers
- 
-> “Truth can only be found in one place: the code.” -_Robert Cecil Martin_
+
+> “Truth can only be found in one place: the code.” _-Robert C. Martin_
+
 ##### - Christoph Alrich [@ideaflare](https://twitter.com/ideaflare)
