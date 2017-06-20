@@ -18,10 +18,12 @@ Qualities of good code also apply to the bigger picture. Software architecture i
    * Messages instead of shared state (Queues, Actors)
  * Pure core with an imperative shell aka Onion / Hexagonal architecture
    * Shell : Limit side-effects to exist only at the domain boundaries of a (sub-) system
-   * Core : Minimize impure functions (side-effects, persistence, dependency, errors, etc.) It's possible to have a 100% pure core. 
+   * Core : Minimize impure functions (side-effects, persistence, dependency, errors, etc.) It's possible to have a 100% pure core.
+
 ## Strong domain boundaries
  * Interfaces, abstractions, plug-ins, Web API
  * Messaging systems, Queues
+ 
 ## Known (Preferably linear) dependencies
  * Discoverability - how a new developer finds what changes to make on which system(s)
  * Predictability - knowing the impact of software changes throughout a system (domino effect of data streams)
@@ -56,6 +58,7 @@ Qualities of good code also apply to the bigger picture. Software architecture i
 This is the thing most junior developers say as a career progression they want to do after coding. Being a software architect is not about the organization of code. Some architects claim to write code more than 70% of the time (small companies), however most architects I've spoken to do not write any code at all (usually large companies). The role of an Architect varies greatly from company to company.
 
 What makes architecture different from guidelines for writing good code - is that you give thought of the other services, goals and strategic direction of the business. *In some cases* you have to factor the costs of decisions. For example, when you decide to sign a yearly contract for a 3rd party integration service, or even more fixed - when failure is expensive like in aerospace projects, these decisions are referred to as "hard to change".
+
 ### Other Considerations
  * Think about all stakeholders involved
  * Other aspects than just maintainability, for example:
