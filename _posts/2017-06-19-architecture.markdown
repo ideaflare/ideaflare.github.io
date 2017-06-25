@@ -32,6 +32,14 @@ Qualities of good code also apply to the bigger picture. Software architecture i
 
 ### Leading Architectural patterns / Good reading
 
+#### Serverless Architecture
+> "An economic model that rewards good design." _-Dan North_
+
+This model allows you to write code without having to think about how servers are provisioned, and you only pay for the resources that you use (time, memory, number of calls, etc..).
+ * Good code here has a direct short-term economic incentive! _(separated, small independently deployable services)_ :)
+ * Free up DevOps to focus on other tasks
+ * Example platforms: [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) & [AWS Lambda](https://aws.amazon.com/lambda/)
+
 #### [Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html)
 #### [Ports and Adapters](http://blog.ploeh.dk/2016/03/18/functional-architecture-is-ports-and-adapters/)
 #### [Railway Oriented Programming](https://fsharpforfunandprofit.com/rop/)
@@ -52,6 +60,9 @@ Qualities of good code also apply to the bigger picture. Software architecture i
  * Each subsystem has its own data
  * Well defined inputs and outputs of each system
  * Request/Response model
+ 
+#### [Architectural Principles of the Internet](https://www.ietf.org/rfc/rfc1958.txt)
+This paper is mostly concerned about protocols, firmware and physical components - But if you really think about the software systems you have worked on while reading this classic 1996 paper, you'll notice may interesting similarities ;)
 
 ## Software Architect != Software Architecture
 
