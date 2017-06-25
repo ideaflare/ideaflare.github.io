@@ -62,7 +62,7 @@ This model allows you to write code without having to think about how servers ar
  * Request/Response model
  
 #### [Architectural Principles of the Internet](https://www.ietf.org/rfc/rfc1958.txt)
-This paper is mostly concerned about protocols, firmware and physical components - But if you really think about the software systems you have worked on while reading this classic 1996 paper, you'll notice may interesting similarities ;)
+This paper is mostly concerned about protocols, firmware and physical components - so really think about the software systems you have worked on while reading this classic 1996 paper, and you'll notice may interesting similarities ;)
 
 ## Software Architect != Software Architecture
 
