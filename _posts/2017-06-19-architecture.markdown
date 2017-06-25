@@ -73,7 +73,7 @@ This paper is mostly concerned about protocols, firmware and physical components
 
 This is the thing most junior developers say as a career progression they want to do after coding. Being a software architect is not about the organization of code. Some architects claim to write code more than 70% of the time (small companies), however most architects I've spoken to do not write any code at all (usually large companies). The role of an Architect varies greatly from company to company.
 
-What makes architecture different from guidelines for writing good code - is that you give thought of the other services, goals and strategic direction of the business. It requires problem solving in many different areas not only related to code. For example, *In some cases* you have to factor the costs of decisions. When you decide to sign a contract for a 3rd party integration service, or even more fixed - when failure is expensive like in aerospace projects, these decisions are referred to as "hard to change".
+What makes architecture different from guidelines for writing good code - is that you give thought of the other services, goals and strategic direction of the business. It requires problem solving in many different areas, for example: *In some cases* you have to factor the costs of decisions. When you decide to sign a contract for a 3rd party integration service, or even more fixed - when failure is expensive like in aerospace projects, these decisions are referred to as "hard to change".
 
 ### Other Considerations
  * Think about all stakeholders involved
