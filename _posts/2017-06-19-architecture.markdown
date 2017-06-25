@@ -11,8 +11,8 @@ Qualities of good code also apply to the bigger picture. Software architecture i
  * Separation of Concerns
  * Strong domain boundaries
  * Known depenencies
- 
-Lets get right into it:
+
+This is largely a bulletpoint breakdown of concepts without the the what & why they help to manage complexity. I didn't want to elaborate to the point of writing a book in this 1 post. So, lets get right into it:
 
 ## Separation of Concerns
  * Single purpose components (at all levels - companies, systems,services, .., modules,functions)
