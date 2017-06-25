@@ -7,7 +7,12 @@ categories: [code, design]
 ---
 > "Think in the small like you think in the large." _-Rich Hickey_
 
-Qualities of good code also apply to the bigger picture. Software architecture is about the organization of code.
+Qualities of good code also apply to the bigger picture. Software architecture is about the organization of code. The biggest qualities of robust system designs are
+ * Separation of Concerns
+ * Strong domain boundaries
+ * Known depenencies
+ 
+Lets get right into it:
 
 ## Separation of Concerns
  * Single purpose components (at all levels - companies, systems,services, .., modules,functions)
@@ -68,21 +73,20 @@ This paper is mostly concerned about protocols, firmware and physical components
 
 This is the thing most junior developers say as a career progression they want to do after coding. Being a software architect is not about the organization of code. Some architects claim to write code more than 70% of the time (small companies), however most architects I've spoken to do not write any code at all (usually large companies). The role of an Architect varies greatly from company to company.
 
-What makes architecture different from guidelines for writing good code - is that you give thought of the other services, goals and strategic direction of the business. *In some cases* you have to factor the costs of decisions. For example, when you decide to sign a yearly contract for a 3rd party integration service, or even more fixed - when failure is expensive like in aerospace projects, these decisions are referred to as "hard to change".
+What makes architecture different from guidelines for writing good code - is that you give thought of the other services, goals and strategic direction of the business. It requires problem solving in many different areas not only related to code. For example, *In some cases* you have to factor the costs of decisions. When you decide to sign a contract for a 3rd party integration service, or even more fixed - when failure is expensive like in aerospace projects, these decisions are referred to as "hard to change".
 
 ### Other Considerations
  * Think about all stakeholders involved
  * Other aspects than just maintainability, for example:
    * Security
-   * Stability
+   * Reliability
    * Scaling (performance and new software)
    * Operations (maintenance, possible downtime, monitoring)
    * Testing. *Side-note: Interesting approach to testing - Instead of the normal testing pyramid, have much less integration tests (the middle part of the pyramid), and have fantastic operations monitoring, and use deployment to test environment to also serve as system tests*
    * Disaster Recovery 
  * Represent other (smaller) systems in meetings, think about how they will be impacted by changes.
- * Saying No. (Tongue in cheek) One of my buddies is a Software Architect at a large bank, and reports being a Software Architect is just saying "No" 70% of the time. There is merit in that he cannot simply say yes to all proposals, as there are a lot of things take into consideration.
+ * Negotiation. (Tongue in cheek) One of my buddies is a Software Architect at a large bank, and reports being a Software Architect is just saying "No" 70% of the time. There is merit in that he cannot simply say yes to all proposals, as there are a lot of things take into consideration.
  * Documentation, keeping good track of e-mails and discussions
- * Negotiate
  * A mediator between business strategy, operations and developers
 
 > “Truth can only be found in one place: the code.” _-Robert C. Martin_
