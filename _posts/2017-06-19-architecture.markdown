@@ -7,10 +7,10 @@ categories: [code, design]
 ---
 > "Think in the small like you think in the large." _-Rich Hickey_
 
-Qualities of good code also apply to the bigger picture. Software architecture is about the organization of code. The biggest qualities of robust system designs are
+Qualities of good code also apply to the bigger picture. Software architecture is about the organization of code. The main qualities of robust system designs are
  * Separation of Concerns
  * Strong domain boundaries
- * Known depenencies
+ * Known dependencies
 
 This is largely a bullet point breakdown of concepts without the what & why they help to manage complexity. I didn't want to elaborate this post to the extent of writing a book (yet!). So, let's get right into it:
 
