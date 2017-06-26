@@ -43,7 +43,7 @@ This is largely a bullet point breakdown of concepts without the what & why they
 This model allows you to write code without having to think about how servers are provisioned, and you only pay for the resources that you use (time, memory, number of calls, etc..).
  * Good code here has a direct short-term economic incentive! _(separated, small independently deployable services)_ :)
  * Free up DevOps to focus on other tasks
- * Example platforms: [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) & [AWS Lambda](https://aws.amazon.com/lambda/)
+ * Example platforms: [Azure Functions](https://azure.microsoft.com/en-us/services/functions/), [AWS Lambda](https://aws.amazon.com/lambda/) & [Cloud Functions](https://cloud.google.com/functions/)
 
 #### [Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html)
 #### [Ports and Adapters](http://blog.ploeh.dk/2016/03/18/functional-architecture-is-ports-and-adapters/)
