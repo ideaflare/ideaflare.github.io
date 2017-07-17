@@ -48,6 +48,7 @@ This model allows you to write code without having to think about how servers ar
 #### [Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html)
 #### [Ports and Adapters](http://blog.ploeh.dk/2016/03/18/functional-architecture-is-ports-and-adapters/)
 #### [Railway Oriented Programming](https://fsharpforfunandprofit.com/rop/)
+#### [Cloud Design Patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
 
 #### [Event Sourcing / CQRS](http://cqrs.nu/Faq)
  * Structure changes more often than behavior.
