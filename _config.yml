@@ -3,9 +3,9 @@ permalink: /:year/:month/:title
 url: http://ideaflare.github.io
 
 # About
-title: Software better
-tagline: Causes & effects in software development
-description: I'm captivated by things that make software development fun & effective. This is where I share what I discover/think about good software development - XP, FP, Kaizen, Lean, Craftsmanship, Anzeneering, etc.. 
+title: Field Notes
+tagline: Musings, usually around software.
+description: Causes & effects in software development, and other observations/conclusions in general
 
 # Disable excerpts(blog previews)
 excerpt_separator: ""
