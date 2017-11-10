@@ -7,12 +7,18 @@ categories: [code, design]
 ---
 > "Think in the small like you think in the large." _-Rich Hickey_
 
-Qualities of good code also apply to the bigger picture. Software architecture is about the organization of code. The main qualities of robust system designs are
+## Why organise ?
+
+### Software architecture is about the organization of code.
+Qualities of good code also apply to the bigger picture. The main qualities of robust system designs are
  * Separation of Concerns
  * Strong domain boundaries
  * Known dependencies
 
-This is largely a bullet point breakdown of concepts without the what & why they help to manage complexity. I didn't want to elaborate this post to the extent of writing a book (yet!). So, let's get right into it:
+### Organisation into modular components helps us to:
+ * Manage complexity and onboard new developers easier by providing a clear map of the flow of information through the system.
+ * Shorten the feedback loop from changes-made <--> effect measured via faster compile/test/deploy/review turnaround times.
+ * Reduce the required developer knowledge for a task to a much smaller subset, instead of having to navigate & memorise all layers of the system first.
 
 ## Separation of Concerns
  * Single purpose components (at all levels - companies, systems,services, .., modules,functions)
