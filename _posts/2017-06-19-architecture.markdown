@@ -16,7 +16,7 @@ Qualities of good code also apply to the bigger picture. The main qualities of r
  * Known dependencies
 
 ### Organisation into modular components helps us to:
- * Manage complexity and onboard new developers easier by providing a clear map of the flow of information through the system.
+ * Manage complexity by providing a clear map of the flow of information through the system.
  * Shorten the feedback loop from changes-made <--> effect measured via faster compile/test/deploy/review turnaround times.
  * Reduce the required developer knowledge for a task to a much smaller subset, instead of having to navigate & memorise all layers of the system first.
 
