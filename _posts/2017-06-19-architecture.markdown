@@ -76,12 +76,6 @@ This model allows you to write code without having to think about how servers ar
 #### [Architectural Principles of the Internet](https://www.ietf.org/rfc/rfc1958.txt)
 This paper is mostly concerned about protocols, firmware and physical components - so really think about the software systems you have worked on while reading this classic 1996 paper, and you'll notice may interesting similarities ;)
 
-## Software Architect != Software Architecture
-
-This is the thing most junior developers say as a career progression they want to do after coding. Being a software architect is not about the organization of code. Some architects claim to write code more than 70% of the time (small companies), however most architects I've spoken to do not write any code at all (usually large companies). The role of an Architect varies greatly from company to company.
-
-What makes architecture different from guidelines for writing good code - is that you give thought of the other services, goals and strategic direction of the business. It requires problem solving in many different areas, for example: *In some cases* you have to factor the costs of decisions. When you decide to sign a contract for a 3rd party integration service, or even more fixed - when failure is expensive like in aerospace projects, these decisions are referred to as "hard to change".
-
 ### Other Considerations
  * Think about all stakeholders involved
  * Other aspects than just maintainability, for example:
