@@ -86,7 +86,6 @@ This paper is mostly concerned about protocols, firmware and physical components
    * Testing. *Side-note: Interesting approach to testing - Instead of the normal testing pyramid, have much less integration tests (the middle part of the pyramid), and have fantastic operations monitoring, and use deployment to test environment to also serve as system tests*
    * Disaster Recovery 
  * Represent other (smaller) systems in meetings, think about how they will be impacted by changes.
- * Negotiation. (Tongue in cheek) One of my buddies is a Software Architect at a large bank, and reports being a Software Architect is just saying "No" 70% of the time. There is merit in that he cannot simply say yes to all proposals, as there are a lot of things take into consideration.
  * Documentation, keeping good track of e-mails and discussions
  * A mediator between business strategy, operations and developers
 
