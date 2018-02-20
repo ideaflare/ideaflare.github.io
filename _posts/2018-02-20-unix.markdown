@@ -1,0 +1,34 @@
+---
+published: true
+title: Software Architecture
+layout: post
+tags: [cleancode, architecture, refactoring]
+categories: [code, design]
+---
+
+# The Unix Philosophy
+
+In the [previous post on Architecture](https://ideaflare.github.io/2017/06/architecture), I stated that the central attributes of robust system designs are Separation of Concerns, Strong domain boundaries and Known dependencies.
+
+That line of thinking is based on a very outside-in focus of responsibilities.
+
+There is an alternative approach that is much closer to how Lego works!
+
+The Unix philosophy is:
+  * Build services (aka Micro-Services) that do one thing, and do it well.
+  * Write services so that they can work together.
+  * Make services use a common interface for communication, such as a Web API or a Messaging System.
+
+To create new functionality, instead of modifying features into existing services, create new services that use other services to carry out a new task.
+
+Building with composition, you have the advantage of the [Open Closed Principle](https://en.wikipedia.org/wiki/Open/closed_principle) working for you to eliminate regression.
+
+Since each service only returns what it's asked for, it doesn't have to protect boundaries to prevent it growing into multiple responsibilities (Monolithic) and limit it's use in different areas of the system in order to minimize complex dependencies.
+
+Another great advantage of this pattern, is that each service can auto-scale resources as needed.
+
+The downside being, if you change behaviour in services, the effect dominoes throughout the system - but the same is true without this pattern - and can be mitigated with tests and managed by keeping track of callers of the service (dependencies).
+
+This concept is very close to how pure functions and immutability makes things easier to build.
+
+Though it's a bit strange at first to think of services/functions as things, the same way you do of objects (such as Person, House), consider the success of Unix, Linux & macOS.
