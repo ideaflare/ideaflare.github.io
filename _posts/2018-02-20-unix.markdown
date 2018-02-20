@@ -21,12 +21,12 @@ To create new functionality, instead of modifying features into existing service
 
 Building with composition, you have the advantage of the [Open Closed Principle](https://en.wikipedia.org/wiki/Open/closed_principle) working for you to eliminate regression.
 
-Since each service only returns what it's asked for, it doesn't have to protect boundaries to prevent it growing into multiple responsibilities (Monolithic) and limit it's use in different areas of the system in order to minimize complex dependencies.
+Since each service only returns what it's asked for, it doesn't have to protect boundaries to prevent it growing into multiple responsibilities (Monolithic) and limit its use in different areas of the system in order to minimize complex dependencies.
 
-Another great advantage of this pattern, is that each service can auto-scale resources as needed.
+Some great advantages of this approach is that each service can auto-scale resources as needed, you can swop out the 'engine' of a service to upgrade it, and there isn't much (or preferably any!) intertwined data to be concerned about when doing so.
 
-The downside being, if you change behaviour in services, the effect dominoes throughout the system - but the same is true without this pattern - and can be mitigated with tests and managed by keeping track of callers of the service (dependencies).
+The downside being, if you change behaviour in services, the effect dominoes throughout the system - but the same is true without this pattern - and can be mitigated with tests and managed by keeping track of callers of the service (dependencies) to consider in the event that behavioral change is truly required.
 
-This concept is very close to how pure functions and immutability makes things easier to build.
+This concept is very close to how pure functions and immutability makes things easier to build..
 
 Though it's a bit strange at first to think of services/functions as things, the same way you do of objects (such as Person, House), consider the success of Unix, Linux & macOS.
