@@ -1,12 +1,10 @@
 ---
 published: true
-title: Software Architecture
+title: The Unix Philosophy
 layout: post
 tags: [cleancode, architecture, refactoring]
 categories: [code, design]
 ---
-
-# The Unix Philosophy
 
 In the [previous post on Architecture](https://ideaflare.github.io/2017/06/architecture), I stated that the central attributes of robust system designs are Separation of Concerns, Strong domain boundaries and Known dependencies.
 
