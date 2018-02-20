@@ -30,3 +30,5 @@ The downside being, if you change behaviour in services, the effect dominoes thr
 This concept is very close to how pure functions and immutability makes things easier to build..
 
 Though it's a bit strange at first to think of services/functions as things, the same way you do of objects (such as Person, House), consider the success of Unix, Linux & macOS.
+
+Christoph [@ideaflare](https://twitter.com/ideaflare)
