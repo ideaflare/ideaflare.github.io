@@ -12,7 +12,7 @@ That line of thinking is based on a very outside-in focus of responsibilities.
 
 There is an alternative approach that is much closer to how Lego works!
 
-The Unix philosophy is:
+The [Unix philosophy](https://en.m.wikipedia.org/wiki/Unix_philosophy) is:
   * Build services (aka Micro-Services) that do one thing, and do it well.
   * Write services so that they can work together.
   * Make services use a common interface for communication, such as a Web API or a Messaging System.
