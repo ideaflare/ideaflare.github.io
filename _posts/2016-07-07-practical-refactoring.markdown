@@ -10,7 +10,7 @@ categories: [code, practices]
 It's about improving code. Highlights being:
 
 * Good communication _via_
-  * Removing duplication 
+  * Removing duplication
   * Improving names
   * Organizing
 
@@ -26,9 +26,10 @@ Working in clean code is **fun**, it makes you more productive and [happy](http:
 
 Refactoring makes:
 
-* extending software easier
+* software easier to extend
 * maintaining existing code less vague
-* hunting bugs less frequent and easier to isolate. 
+* hunting bugs less frequent and easier to isolate.
+* finding where to make changes more discoverable
 
 ## When to refactor ?
 
@@ -37,13 +38,11 @@ Refactoring makes:
 
 > They boy scout rule - "Always leave the campground cleaner than you found it"
 
-Taking pride in your work feels really great - to know you did your best. This isn't true for everyone, not all developers are passionate about what they do or want to become 'software craftsmen'. To manage legacy using a strategy like "just hire more developers!" is a cop-out, that doesn't actually address the root of the problem: 
-
-Adding new features or changing existing behavior of software increases it's complexity, and the system becomes more and more difficult to change each time. The only way to keep software from rotting is by recognizing the need to reduce complexity. The **value** of refactoring, is to support a sustainable pace of development - so that you _(or the next person)_ in a future not too far from now can work on the software with continued momentum.
+Adding new features or changing existing behavior of software increases it's complexity, and the system becomes more and more difficult to change each time. The only way to keep software maleable is by recognizing the need to reduce complexity. The **value** of refactoring, is to support a sustainable pace of development - so that you _(or the next person)_ in a future not too far from now can work on the software with continued momentum.
 
 > Clean code minimizes the time spent from looking at code for the first time to making a confident change.
 
-But how do you know which parts of code to clean? How can you predict where to change next - how will you know where refactoring will help the most?
+But how do you know which parts of code to clean, how will you know where refactoring will help the most?
 
 ## Where to refactor
 
@@ -57,4 +56,4 @@ When touching the same code many times, think about how you can [separate the pa
 
 To keep things simple - cultivate the habit to clean as you go, even if it's just renaming a variable or deleting unused code :)
 
-##### - Christoph Alrich [@ideaflare](https://twitter.com/ideaflare)
+##### - Christoph [@ideaflare](https://twitter.com/ideaflare)
