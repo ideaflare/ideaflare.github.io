@@ -86,9 +86,8 @@ This paper is mostly concerned about protocols, firmware and physical components
    * Testing. *Side-note: Interesting approach to testing - Instead of the normal testing pyramid, have much less integration tests (the middle part of the pyramid), and have fantastic operations monitoring, and use deployment to test environment to also serve as system tests*
    * Disaster Recovery 
  * Represent other (smaller) systems in meetings, think about how they will be impacted by changes.
- * Documentation, keeping good track of e-mails and discussions
- * A mediator between business strategy, operations and developers
+ * Documentation, keeping good track of e-mails / discussions / chat, reasons behind why & how things were built.
 
 > “Truth can only be found in one place: the code.” _-Robert C. Martin_
 
-##### - Christoph Alrich [@ideaflare](https://twitter.com/ideaflare)
+##### - Christoph [@ideaflare](https://twitter.com/ideaflare)
