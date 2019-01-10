@@ -23,4 +23,4 @@ Your blog can be a place for people to discover a helpful introduction into some
 ## Get feedback
 Via comments (or other social media like tweets, etc..) you can gain perspectives, insights and learn how/what others think.
 
-##### - Christoph Alrich [@ideaflare](https://twitter.com/ideaflare)
+##### - Christoph [@ideaflare](https://twitter.com/ideaflare)
