@@ -7,11 +7,13 @@ categories: [code, design]
 ---
 # Why test
 
-Most important thing about code is that it works as expected. Testing is to validate assumptions.
+Most important thing about code is that it works as expected. Even though things like [asserting the length of collections](https://www.idris-lang.org) could be checked at compile time, testing is the only sure way to really validate assumptions.
 
-# Testing Helps you to think about what you don't, so you can focus on the change you make.
-## Refactoring
-Helps to make sure that other code doesn't break, and enables you to refactor freely.
+# Testing enables you to focus on the change you make.
+## Refactoring safety net
+Helps to make sure that expected functionality of the code is still valid, and enables you to refactor freely
+## Focus on feature
+Tests allows you to think only about the new functionality, without having to consider the entire rube goldberg machine at once.
 ## Collaboration
 You might not know what code is calling what, especially if multiple people are modifying the code base all the time.
 
