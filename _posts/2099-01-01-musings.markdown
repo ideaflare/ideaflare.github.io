@@ -40,3 +40,9 @@ It's the same kind of thinking in functions - Rich Hickey (TODO find & link talk
 
 The way large systems are architected are usually with queues, and well defined boundries/purpose of systems.
 Messages - like the original intent of OO to be how biological cells organize and communicate (TODO find reference)
+
+# Naming things
+
+Evident. Best place to start a name from, is from it's usage(s). That is, create it as it's consumed, as if by TDD generated. If something is built and named in isolation without usage, it's something within itself, without a place or meaning ~ which makes a naming it harder.
+
+
