@@ -35,9 +35,10 @@ Qualities of good code also apply to the bigger picture. The main qualities of r
  * Interfaces, abstractions, plug-ins, Web API
  * Messaging systems, Queues
  
-## Known (Preferably linear) dependencies
- * Discoverability - how a new developer finds what changes to make on which system(s)
- * Predictability - knowing the impact of software changes throughout a system (domino effect of data streams)
+## Make things easy to find
+ * Kown (Preferably linear) dependencies
+ * Searchability/Discoverability - how a new developer finds what changes to make on which system(s)
+ * Predictability/Tracability - knowing the impact of software changes throughout a system (domino effect of data streams)
  * Linearity. Languages support this in various degrees - in C# you cannot have a project that is referenced by a project it references in the same solution. Circular dependencies sound convoluted - because they are! In F# the same is true at an even more granular level, where files and code needs to be ordered in order of dependency, akin to how C/C++ would be without the use of forward references. Generic functions and Simple data structures at the highest level of the system reduce overall complexity. Prefer Composition over Inheritance: Domain Models -&gt; Functions -&gt; More Functions -&gt; Implementations.
 > "It is better to have 100 functions operate on one data structure than 10 functions on 10 data structures." _-Alan J. Perlis_
 
