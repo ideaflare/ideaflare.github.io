@@ -1,0 +1,27 @@
+---
+published: false
+title: ~Architecture revisited~ Systems Design
+layout: post
+tags: [architecture, design, systems]
+categories: [code, design, business]
+---
+
+*"Software Architecture"* is used to talk about how things are put together.
+
+..triangles..
+
+There is a better word for what we intend when we talk about this.
+
+> "A set of things working together" *(i.e. System)*
+
+para..
+
+para..
+
+The [link name](https://en.m.wikipedia.org/wiki/Unix_philosophy) list of stuff:
+  * item 1
+  * item 2..
+
+Paragraph
+
+Christoph [@ideaflare](https://twitter.com/ideaflare)
