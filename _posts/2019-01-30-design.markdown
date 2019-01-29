@@ -28,7 +28,7 @@ boxes and arrows.
 
 What we want to convey is:
   * Flow of information through the system 
-  * Qualities of the system components: Testability, Security, stability scalability.
+  * Qualities of the system components: (e.g. Testability, Security, stability scalability, etc..)
 
 Paragraph
 
