@@ -12,7 +12,10 @@ In Joe Armstrong's [thesis on Erlang](http://erlang.org/download/armstrong_thesi
 > While there is no standard definition, there is also no shortage of them ...
 > *-The Carnegie Mellon Institute of Software Engineers*
 
-*"Software Architecture"* is used to talk about how things are put together.
+Ambiguity stems from:
++ [Architecture](https://en.wikipedia.org/wiki/Architecture) is used to describe both the artifact and the process that creates it.
++ It's activity and result vary greatly depending on application and context.
++ The analogy of construction in software
 
 The metaphor for architecture places a strong emphasis on structure. In the physical world, there is a significant difference between a triangle with a flat surface at the bottom, or at the top. Decisions affects structural integrity, usability, costs and aesthetics.
 
@@ -20,11 +23,13 @@ An..
 
 In software, the analogy doesn't translate entirely well. An idea of qualitative decisions is implied *(e.g. ["fundamental structural choices which are costly to change once implemented"](https://en.wikipedia.org/wiki/Software_architecture))*, but our main focus isn't communicated.
 
+*"Software Architecture"* is used to talk about how things are put together.
+
 There is a better word for what we intend when we talk about this.
 
 > "A set of things working together" *(i.e. System)*
 
-boxes and arrows.
+Often when communicating architecture, we use **boxes and arrows**.
 
 What we want to convey is:
   * *Dataflow* - Flow of information through the system 
